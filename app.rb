@@ -10,3 +10,5 @@ end
 get '/path/to' do
   "this is [/path/to]"
 end
+
+# 'http://localhost:4567/test.html' にアクセスすると、'test.html' が表示される。
