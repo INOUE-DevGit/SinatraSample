@@ -17,3 +17,7 @@ end
 get '/hello/*' do |name|
   "Hello, #{name}. How are you?"
 end
+
+get '/erb_template_page' do
+  erb :erb_template_page
+end
