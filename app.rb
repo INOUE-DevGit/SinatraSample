@@ -12,3 +12,8 @@ get '/path/to' do
 end
 
 # 'http://localhost:4567/test.html' にアクセスすると、'test.html' が表示される。
+
+# 'http://localhost:4567/hello/Alice' にアクセスすると、'Hello, Alice. How are you?' が表示される。
+get '/hello/*' do |name|
+  "Hello, #{name}. How are you?"
+end
