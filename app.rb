@@ -6,3 +6,7 @@ require 'sinatra/reloader'
 get '/' do
   'Hello, world!'
 end
+
+get '/path/to' do
+  "this is [/path/to]"
+end
