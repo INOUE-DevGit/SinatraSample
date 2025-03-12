@@ -18,6 +18,7 @@ get '/hello/*' do |name|
   "Hello, #{name}. How are you?"
 end
 
+# 'http://localhost:4567/erb_template_page' にアクセスすると現在時刻が表示される。
 get '/erb_template_page' do
   erb :erb_template_page
 end
